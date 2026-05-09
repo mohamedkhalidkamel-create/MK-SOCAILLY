@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خدمات السوشيال ميديا | MK Socially</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/css.css">
+    <style>
+        /* تنسيقات كروت الخدمات المخصصة لصفحة السوشيال ميديا */
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 30px; padding: 20px 5% 60px; max-width: 1200px; margin: 0 auto; }
+        .service-card { background: #111; border: 1px solid rgba(255, 215, 0, 0.1); padding: 35px 25px; border-radius: 15px; text-align: center; transition: 0.4s ease; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; }
+        .service-card:hover { transform: translateY(-10px); border-color: var(--primary-gold); box-shadow: 0 10px 30px rgba(255, 215, 0, 0.15); background: #151515; }
+        .service-card i { font-size: 3rem; color: var(--primary-gold); margin-bottom: 20px; text-shadow: 0 0 15px rgba(255, 215, 0, 0.3); }
+        .service-card h3 { color: #fff; margin-bottom: 15px; font-size: 1.4rem; font-weight: 900; }
+        .service-card p { color: var(--text-muted); font-size: 0.95rem; line-height: 1.7; margin: 0; }
+    </style>
+    <link rel="manifest" href="../manifest.json">
+<meta name="theme-color" content="#FFD700">
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="../img/logo.png" alt="Logo"></div>
+        <div class="menu-toggle" id="mobile-menu"><span class="menu-text">القائمة</span><div class="bars-container"><span class="bar"></span><span class="bar"></span><span class="bar"></span></div></div>
+        <nav><ul class="nav-list">
+            <li><a href="../index.html">الرئيسية</a></li>
+            <li class="dropdown"><a href="#" class="nav-item-with-arrow" style="color: var(--primary-gold);">خدماتنا <i class="fas fa-chevron-down" style="font-size:0.8rem;"></i></a>
+                <ul class="dropdown-menu"><li><a href="social_media.html">سوشيال ميديا</a></li><li><a href="prints.html">المطبوعات</a></li></ul>
+            </li>
+            
+            <li><a href="previous_work.html">سابقة الأعمال</a></li>
+            <li><a href="contact.html">تواصل معنا</a></li>
+            <li><a href="Packages.html">الباقات</a></li>
+        </ul></nav>
+    </header>
+
+    <nav class="mobile-nav-under-header">
+        <a href="../index.html" class="nav-item"><i class="fas fa-home"></i><span>الرئيسية</span></a>
+        <div class="nav-item services-trigger"><i class="fas fa-bullhorn" style="color:var(--primary-gold);"></i><span style="color:var(--primary-gold);">خدماتنا</span>
+            <div class="mobile-services-popup"><a href="social_media.html">سوشيال ميديا</a><a href="prints.html">مطبوعات</a></div>
+        </div>
+        <a href="previous_work.html" class="nav-item"><i class="fas fa-briefcase"></i><span>شركاء النجاح</span></a>
+        <a href="contact.html" class="nav-item"><i class="fas fa-envelope"></i><span>تواصل</span></a>
+        <a href="Packages.html" class="nav-item"><i class="fas fa-tags"></i><span>الباقات</span></a>
+    </nav>
+    
+<main>
+    <section class="main-page-title">
+        <h1>خدمات <span>السوشيال ميديا</span></h1>
+        <p>استراتيجيات متكاملة لبناء براند قوي وتحقيق انتشار واسع.</p>
+    </section>
+
+    <section class="all-services-section">
+        <h2 class="section-title">
+            <i class="fas fa-cogs"></i> خدماتنا الشاملة
+        </h2>
+        
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-bullseye"></i>
+                <h3>الإعلانات الممولة (Media Buying)</h3>
+                <p>إدارة احترافية لحملات المبيعات وإعلانات دقيقة الاستهداف على كافة المنصات لضمان أعلى عائد على الاستثمار (ROI) واكتساح منافسينك.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-palette"></i>
+                <h3>تصميم الجرافيك (Graphic Design)</h3>
+                <p>تصاميم إبداعية وهوية بصرية قوية تثبت في ذهن العميل وتبرز قوة منتجك في السوق، من بوستات وستوريز وتصميمات متحركة GIF.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-pen-nib"></i>
+                <h3>كتابة المحتوى (Copywriting)</h3>
+                <p>صياغة محتوى بيعي وقيمي بأسلوب احترافي يبني الثقة مع جمهورك، يحفز التفاعل، ويحول المتابعين إلى عملاء دائمين.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fab fa-whatsapp"></i>
+                <h3>حملات الواتساب (WhatsApp)</h3>
+                <p>استهداف ضخم ومباشر من خلال حملات واتساب مكثفة (تصل لـ 50,000 عميل) تضمن وصول رسالتك وعروضك الترويجية وتحقيق مبيعات فورية.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-camera-retro"></i>
+                <h3>التصوير الاحترافي (Photography)</h3>
+                <p>جلسات تصوير لمنتجاتك ومقرك بأعلى فئة من معدات التصوير لإخراج صور احترافية تعكس فخامة وجودة ما تقدمه.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-video"></i>
+                <h3>إنتاج الفيديوهات (Video Reels)</h3>
+                <p>صناعة فيديوهات احترافية ومحتوى فيروسي (Viral) يخطف العين ويضمن لعلامتك التجارية الانتشار العضوي السريع وتصدر التريند.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-robot"></i>
+                <h3>إدارة الصفحات والرد الآلي</h3>
+                <p>إدارة متكاملة للتفاعل مع المتابعين، برمجة بوت ذكي (Chatbot) لردود تلقائية على الماسنجر والكومنتات لعدم تفويت أي فرصة بيع.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-microchip"></i>
+                <h3>فيديوهات الذكاء الاصطناعي (AI)</h3>
+                <p>توظيف أحدث تقنيات الذكاء الاصطناعي لإنشاء فيديوهات مبتكرة وأفكار خارج الصندوق لإبهار عملائك ومواكبة تطور السوق.</p>
+            </div>
+        </div>
+    </section>
+
+     <section class="social-projects-wrapper">
+        <div class="projects-grid-new">
+            <div class="project-card-new" onclick="openProjectModal('مسمط', 'مسمط السيدة زينب')">
+                <div class="folder-logo-new"><img src="../social media/مسمط/logo1.png" alt="Logo"></div>
+                <h3>مسمط السيدة زينب</h3>
+                <span class="click-hint"><i class="fas fa-hand-pointer"></i> اضغط للمشاهدة</span>
+            </div>
+            <div class="project-card-new" onclick="openProjectModal('كشري الوزير', 'كشري الوزير')">
+                <div class="folder-logo-new"><img src="../social media/كشري الوزير/logo1.png" alt="Logo"></div>
+                <h3>كشري الوزير</h3>
+                <span class="click-hint"><i class="fas fa-hand-pointer"></i> اضغط للمشاهدة</span>
+            </div>
+            <div class="project-card-new" onclick="openProjectModal('عل ماشي', 'ع الماشي')">
+                <div class="folder-logo-new"><img src="../social media/عل ماشي/logo1.png" alt="Logo"></div>
+                <h3>ع الماشي</h3>
+                <span class="click-hint"><i class="fas fa-hand-pointer"></i> اضغط للمشاهدة</span>
+            </div>
+            <div class="project-card-new" onclick="openProjectModal('سيتي كريب', 'سيتي كريب')">
+                <div class="folder-logo-new"><img src="../social media/سيتي كريب/logo1.png" alt="Logo"></div>
+                <h3>سيتي كريب</h3>
+                <span class="click-hint"><i class="fas fa-hand-pointer"></i> اضغط للمشاهدة</span>
+            </div>
+            <div class="project-card-new" onclick="openProjectModal('حكاية', 'حكاية')">
+                <div class="folder-logo-new"><img src="../social media/حكاية/logo1.png" alt="Logo"></div>
+                <h3>حكاية</h3>
+                <span class="click-hint"><i class="fas fa-hand-pointer"></i> اضغط للمشاهدة</span>
+            </div>
+            <div class="project-card-new" onclick="openProjectModal('حضروت الحلبي', 'حضرموت الحلبي')">
+                <div class="folder-logo-new"><img src="../social media/حضروت الحلبي/logo1.png" alt="Logo"></div>
+                <h3>حضرموت الحلبي</h3>
+                <span class="click-hint"><i class="fas fa-hand-pointer"></i> اضغط للمشاهدة</span>
+            </div>
+            <div class="project-card-new" onclick="openProjectModal('النيل', 'النيل')">
+                <div class="folder-logo-new"><img src="../social media/النيل/logo1.png" alt="Logo"></div>
+                <h3>النيل</h3>
+                <span class="click-hint"><i class="fas fa-hand-pointer"></i> اضغط للمشاهدة</span>
+            </div>
+            <div class="project-card-new" onclick="openProjectModal('المركب', 'المركب سي فود')">
+                <div class="folder-logo-new"><img src="../social media/المركب/logo1.png" alt="Logo"></div>
+                <h3>المركب سي فود</h3>
+                <span class="click-hint"><i class="fas fa-hand-pointer"></i> اضغط للمشاهدة</span>
+            </div>
+            <div class="project-card-new" onclick="openProjectModal('الفا ايجيبت', 'ألفا إيجيبت')">
+                <div class="folder-logo-new"><img src="../social media/الفا ايجيبت/logo1.png" alt="Logo"></div>
+                <h3>ألفا إيجيبت</h3>
+                <span class="click-hint"><i class="fas fa-hand-pointer"></i> اضغط للمشاهدة</span>
+            </div>
+            <div class="project-card-new" onclick="openProjectModal('lava', 'تشيكن لافا')">
+                <div class="folder-logo-new"><img src="../social media/lava/logo1.png" alt="Logo"></div>
+                <h3>تشيكن لافا</h3>
+                <span class="click-hint"><i class="fas fa-hand-pointer"></i> اضغط للمشاهدة</span>
+            </div>
+            <div class="project-card-new" onclick="openProjectModal('امان', 'مركز امان')">
+                <div class="folder-logo-new"><img src="../social media/امان/logo1.png" alt="Logo"></div>
+                <h3>مركز امان</h3>
+                <span class="click-hint"><i class="fas fa-hand-pointer"></i> اضغط للمشاهدة</span>
+            </div>
+             <div class="project-card-new" onclick="openProjectModal('كشري الخديوي', 'كشري الخديوي')">
+                <div class="folder-logo-new"><img src="../social media/كشري الخديوي/logo1.png" alt="Logo"></div>
+                <h3>كشري الخديوي</h3>
+                <span class="click-hint"><i class="fas fa-hand-pointer"></i> اضغط للمشاهدة</span>
+            </div>
+                <div class="project-card-new" onclick="openProjectModal('treconatex', 'treconatex')">
+                <div class="folder-logo-new"><img src="../social media/treconatex/logo1.png" alt="Logo"></div>
+                <h3>treconatex</h3>
+                <span class="click-hint"><i class="fas fa-hand-pointer"></i> اضغط للمشاهدة</span>
+            </div>
+                <div class="project-card-new" onclick="openProjectModal('Topnotch', 'Topnotch real estate')">
+                <div class="folder-logo-new"><img src="../social media/Topnotch/logo1.png" alt="Logo"></div>
+                <h3>Topnotch real estate</h3>
+                <span class="click-hint"><i class="fas fa-hand-pointer"></i> اضغط للمشاهدة</span>
+            </div>
+     </div>
+    </section>
+
+    <div id="fb-project-modal" class="fb-modal-overlay">
+        <div class="fb-modal-container">
+            <span class="fb-close-btn" onclick="closeProjectModal()">&times;</span>
+            <div class="fb-modal-content">
+                
+                <section class="fb-profile-header">
+                    <div class="fb-cover-photo">
+                        <img src="" alt="Cover">
+                    </div>
+                    <div class="fb-profile-logo">
+                        <img src="" alt="Logo">
+                    </div>
+                </section>
+                
+                <div class="fb-folder-tag">
+                    <h2 id="modal-project-title">اسم المشروع</h2>
+                    <p>تصاميم الجرافيك</p>
+                </div>
+
+                <section class="fb-work-section">
+                    <div class="fb-portfolio-gallery">
+                        <div class="fb-work-item"><img src="" alt="Post 1"></div>
+                        <div class="fb-work-item"><img src="" alt="Post 2"></div>
+                        <div class="fb-work-item"><img src="" alt="Post 3"></div>
+                        <div class="fb-work-item"><img src="" alt="Post 4"></div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+    <footer>
+        <div class="footer-container"><div class="footer-box"><h3>عن MK Socially</h3><p>رؤيتنا: أن نكون شريك النجاح الأول لعملائنا في بناء وتكبير علاماتهم التجارية رقمياً.</p></div><div class="footer-box"><h3>تواصل معنا</h3><div class="social-icons"><a href="https://www.facebook.com/profile.php?id=100069878845047" target="_blank"><i class="fab fa-facebook-f"></i></a><a href="https://wa.me/201228516740" target="_blank"><i class="fab fa-whatsapp"></i></a></div></div></div>
+        <div class="footer-rights">جميع الحقوق محفوظة © <span>MK Socially</span></div>
+    </footer>
+    <div class="custom-cursor"></div><div class="custom-cursor-glow"></div>
+    <script src="../js/script.js"></script>
+</body>
+</html>
